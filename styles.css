@@ -1,0 +1,115 @@
+@import
+url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.backgroundpic {
+     /* Full height */
+     height: 100vh; 
+     background-image: url("./img/main-bg.jpeg");  
+     background-color: black;   
+         /* Center and scale the image nicely */
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-attachment: fixed;
+}
+
+.whitefont {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.flexy {
+    display: flex;
+}
+
+.nav-bar {
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: space-around;
+}
+
+.middle {
+    height: 20vh;
+    flex-direction: column;
+    
+}
+
+.your {
+    font-size: 70px;
+    justify-content: center;
+    margin-top: 30vh;
+}
+
+.personalport {
+    justify-content: center;
+    margin-top: 10vh;
+    font-size: 45px;
+}
+
+.button {
+    justify-content: center;
+    margin-top: 35vh;
+}
+
+.fa-angle-down {
+    font-size: 84px;
+}
+.invisible {
+    display: none;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .nav-bar {
+        display: none;
+    }
+    .mobile-header{
+        display: flex;
+        height: 10vh;
+       
+        
+    }
+    .menu {
+        color: white;
+        font-size: 50px;
+        display: flex;
+        margin: 0px 40vw 0px 3vw;
+       
+    }
+    .icon-one {
+        display: flex;
+        margin: 20px 0px 20px 0px;
+        height: auto;
+        width: 5vw;
+    }
+
+     .icon-two {
+        display:block;
+        margin: 20px 0px 20px 0px;
+        height: 1vh;
+        width: 1vh;
+        margin-left: 50px;
+        
+    } 
+
+    .icons {
+        margin-left: 25%;
+
+    }
+
+
+  
+    
+}
+
